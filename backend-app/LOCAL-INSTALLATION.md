@@ -31,7 +31,7 @@ Check the DB_USERNAME, DB_DATABASE and DB_PASSWORD from .env file, create the us
 ```bash
 $ sudo mysql
 > CREATE USER 'DB_USERNAME'@'localhost' IDENTIFIED BY 'DB_PASSWORD';
-> GRAND ALL PRIVILEGES ON backend_app.* TO 'DB_USERNAME'@'localhost';
+> GRAND ALL PRIVILEGES ON DB_NAME.* TO 'DB_USERNAME'@'localhost';
 > FLUSH PRIVILEGES;
 > EXIT;
 ```
